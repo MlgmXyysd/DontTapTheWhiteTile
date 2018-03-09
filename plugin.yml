@@ -1,0 +1,23 @@
+name: DontTapTheWhiteTile
+main: org.meowcat.DontTapTheWhiteTile.Main
+author: MeowCat Studio
+version: 1.0.0
+website: http://www.meowcat.org/
+database: false
+description: Don't Tap The White Tile game for Minecraft.
+load: POSTWORLD
+prefix: WhiteTile
+commands:
+  tile:
+    description: Show Tile High Score
+    usage: /<command>
+    permission-message: You do not have enough permission to do this.
+  tileadmin:
+    description: Tile Admin Command
+    usage: /<command>
+    permission-message: You do not have enough permission to do this.
+permissions:
+  tile.player:
+    default: true
+  tile.admin:
+    default: op
